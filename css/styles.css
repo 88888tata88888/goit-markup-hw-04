@@ -166,19 +166,6 @@ img {
 	padding-right: 100px;
 	justify-content: center;
 }
-
-.iicon-clock1 {
-	display: flex;
-	background-repeat: no-repeat;
-	background-color: #F5F4FA;
-	border-radius: 4px;
-	margin-bottom: 30px;
-	padding-bottom: 25px;
-	padding-top: 25px;
-	padding-left: 100px;
-	padding-right: 100px;
-	justify-content: center;
-}
 .icon-clock1 {
 	display: flex;
 	background-repeat: no-repeat;
