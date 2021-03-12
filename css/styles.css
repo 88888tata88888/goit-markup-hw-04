@@ -156,7 +156,6 @@ img {
 }
 .icon-antenna1 {
 	display: flex;
-	content: "";
 	background-repeat: no-repeat;
 	background-color: #F5F4FA;
 	border-radius: 4px;
@@ -165,11 +164,11 @@ img {
 	padding-top: 25px;
 	padding-left: 100px;
 	padding-right: 100px;
+	justify-content: center;
 }
 
 .iicon-clock1 {
 	display: flex;
-	content: "";
 	background-repeat: no-repeat;
 	background-color: #F5F4FA;
 	border-radius: 4px;
@@ -178,10 +177,10 @@ img {
 	padding-top: 25px;
 	padding-left: 100px;
 	padding-right: 100px;
+	justify-content: center;
 }
 .icon-clock1 {
 	display: flex;
-	content: "";
 	background-repeat: no-repeat;
 	background-color: #F5F4FA;
 	border-radius: 4px;
@@ -190,10 +189,10 @@ img {
 	padding-top: 25px;
 	padding-left: 100px;
 	padding-right: 100px;
+	justify-content: center;
 }
 .icon-diagram1 {
 	display: flex;
-	content: "";
 	background-repeat: no-repeat;
 	background-color: #F5F4FA;
 	border-radius: 4px;
@@ -202,10 +201,10 @@ img {
 	padding-top: 25px;
 	padding-left: 100px;
 	padding-right: 100px;
+	justify-content: center;
 }
 .icon-astronaut1 {
 	display: flex;
-	content: "";
 	background-repeat: no-repeat;
 	background-color: #F5F4FA;
 	border-radius: 4px;
@@ -214,8 +213,8 @@ img {
 	padding-top: 25px;
 	padding-left: 100px;
 	padding-right: 100px;
+	justify-content: center;
 }
-
 .work-title {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
