@@ -145,6 +145,9 @@ img {
 /*=== END HERO===*/
 
 /*===ABOUT===*/
+.about {
+	justify-content: center;
+}
 .about-list {
 	display: flex;
 	padding-top: 94px;
@@ -152,7 +155,7 @@ img {
 }
 .work {
 	flex-basis: calc(100% / 4 - 30px);
-     margin-left: 30px; 
+	margin-left: 30px;
 }
 .icon-antenna1 {
 	display: flex;
@@ -225,6 +228,9 @@ img {
 /*=== END ABOUT===*/
 
 /*=== SERVICES===*/
+.services {
+	justify-content: center;
+}
 .caption {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
@@ -252,13 +258,13 @@ img {
 	width: 100%;
 	padding-top: 94px;
 	padding-bottom: 94px;
-
+	justify-content: center;
 }
 .masters-list {
 	display: flex;
 	justify-content: center;
 	padding-top: 50px;
-	margin: 0;
+	margin: 0 ;
 }
 .captein-masters {
 	background: #ffffff;
@@ -291,6 +297,34 @@ img {
 	padding-bottom: 30px;
 }
 /*===END MASTERS===*/
+
+/*===CLIENTS===*/
+.icon-logo1 {
+	display: flex;
+	background-repeat: no-repeat;
+	outline: 1px solid #AFB1B8;
+	width: 170px;
+	height: 90px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	fill: #AFB1B8;
+	align-items: center;
+	justify-content: center;
+}
+.icon-logo2 {
+	display: flex;
+	background-repeat: no-repeat;
+	background-color: ;
+	outline: 1px solid #AFB1B8;
+	width: 170px;
+	height: 90px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	fill: #AFB1B8;
+	align-items: center;
+	justify-content: center;
+}
+/*===END CLIENTS===*/
 
 /*===CONTACTS===*/
 .contacts {
