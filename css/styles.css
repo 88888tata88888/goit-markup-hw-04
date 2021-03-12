@@ -169,6 +169,7 @@ img {
 	padding-left: 100px;
 	padding-right: 100px;
 	justify-content: center;
+	align-items: center;
 }
 .icon-clock1 {
 	display: flex;
@@ -300,10 +301,85 @@ img {
 /*===END MASTERS===*/
 
 /*===CLIENTS===*/
+.clients {
+	margin-top: 94px;
+}
+.clients-title {
+	justify-content: center;
+	display: flex;
+	margin-bottom: 94px;
+	margin-top: 50px;
+}
 .icon-logo1 {
 	display: flex;
 	background-repeat: no-repeat;
-	outline: 1px solid #AFB1B8;
+	border: 1px solid #AFB1B8;
+	width: 170px;
+	height: 90px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	fill: #AFB1B8;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+
+}
+.icon-logo2 {
+	display: flex;
+	background-repeat: no-repeat;
+	border: 1px solid #AFB1B8;
+	width: 170px;
+	height: 90px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	fill: #AFB1B8;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+}
+.icon-logo3 {
+	display: flex;
+	background-repeat: no-repeat;
+	border: 1px solid #AFB1B8;
+	width: 170px;
+	height: 90px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	fill: #AFB1B8;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+}
+.icon-logo4 {
+	display: flex;
+	background-repeat: no-repeat;
+	border: 1px solid #AFB1B8;
+	width: 170px;
+	height: 90px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	fill: #AFB1B8;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+}
+.icon-logo5 {
+	display: flex;
+	background-repeat: no-repeat;
+	border: 1px solid #AFB1B8;
+	width: 170px;
+	height: 90px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	fill: #AFB1B8;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+}
+.icon-logo6 {
+	display: flex;
+	background-repeat: no-repeat;
+	border: 1px solid #AFB1B8;
 	width: 170px;
 	height: 90px;
 	border-radius: 4px;
@@ -312,17 +388,10 @@ img {
 	align-items: center;
 	justify-content: center;
 }
-.icon-logo2 {
-	display: flex;
-	background-repeat: no-repeat;
-	outline: 1px solid #AFB1B8;
-	width: 170px;
-	height: 90px;
-	border-radius: 4px;
-	box-sizing: border-box;
-	fill: #AFB1B8;
-	align-items: center;
-	justify-content: center;
+.clients-navigation:hover {
+	fill: #2196F3;
+	border: 1px solid #2196F3;
+	cursor: pointer;
 }
 /*===END CLIENTS===*/
 
