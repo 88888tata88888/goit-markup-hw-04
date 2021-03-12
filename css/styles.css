@@ -152,8 +152,70 @@ img {
 }
 .work {
 	flex-basis: calc(100% / 4 - 30px);
-     margin-left: 30px;
+     margin-left: 30px; 
 }
+.icon-antenna1 {
+	display: flex;
+	content: "";
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.iicon-clock1 {
+	display: flex;
+	content: "";
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.icon-clock1 {
+	display: flex;
+	content: "";
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.icon-diagram1 {
+	display: flex;
+	content: "";
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.icon-astronaut1 {
+	display: flex;
+	content: "";
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 .work-title {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
@@ -210,7 +272,7 @@ img {
 	display: flex;
 	justify-content: center;
 	padding-top: 50px;
-	margin: auto;
+	margin: 0;
 }
 .captein-masters {
 	background: #ffffff;
@@ -249,7 +311,7 @@ img {
 	background-color: #2f303a;
 	width: 100%;
   padding-top: 60px;
-  padding-bottom: 60px
+  padding-bottom: 60px;
 }
 .logo-color {
 	color: #2196f3;
