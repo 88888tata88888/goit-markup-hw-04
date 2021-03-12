@@ -387,11 +387,12 @@ img {
 	fill: #AFB1B8;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
 }
 .clients-navigation:hover {
 	fill: #2196F3;
 	border: 1px solid #2196F3;
-	cursor: pointer;
+	
 }
 /*===END CLIENTS===*/
 
