@@ -147,6 +147,7 @@ img {
 /*===ABOUT===*/
 .about {
 	justify-content: center;
+	margin-right: 30px;
 }
 .about-list {
 	display: flex;
