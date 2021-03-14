@@ -391,12 +391,21 @@ img {
 /*===END CLIENTS===*/
 
 /*===CONTACTS===*/
-.contacts {
+.footer {
 	background-color: #2f303a;
-	width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  
+  }
+  .footer .container {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+  .logo-contacts {
+	color: #ffffff;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1, 19;
+	letter-spacing: 0.03em;
 }
 .logo-color {
 	color: #2196f3;
@@ -406,23 +415,6 @@ img {
 	line-height: 1,19;
 	letter-spacing: 0.03em;
 	margin-bottom: 20px;
-}
-.address,
-.list-item-contact,
-.contacts-info {
-	display: flex;
-  flex-direction: column;
-}
-.list-item-contact:not(:last-child) {
-	margin-bottom: 9px;
-}
-.logo-contacts {
-	color: #ffffff;
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1, 19;
-	letter-spacing: 0.03em;
 }
 .maps {
 	font-family: "Roboto", sans-serif;
@@ -443,36 +435,47 @@ img {
     display: inline-block;
     padding-top: 10px;
 }
-.social {
+.address,
+.list-item-contact,
+.contacts-info {
 	display: flex;
-	align-items: baseline;
+ 	 flex-direction: column;
 }
-.text-social {
+  .invitation {
+	font-family: "Roboto", sans-serif;
 	color: #fff;
 	font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+	font-size: 14px;
+	line-height: 1.14;
+	margin-bottom: 20px;
     letter-spacing: 0.03em;
 	text-transform: uppercase;
-}
-.social-icon {
-	
-}
+  }
+  .footer .icon-list {
+	display: flex;
+  }
+  .footer-wraper:not(:last-child) {
+	margin-right: 70px;
+  }
 .icon-li {
 	display: inline-flex;
 	width: 44px;
 	height: 44px;
+	margin-right: 10px;
 	border-radius: 50%;
 	background-color: #fff;
 	background:rgba(255, 255, 255, 0.1);
 }
-.icon-instagram2 {
+.icon-li:hover {
+	background-color: #2196f3;
+}
+  .icon-instagram2 {
 	margin: auto;
 	width: 20px;
 	height: 20px;
 	fill: #fff;
-}
-.icon-twitter1 {
+  }
+  .icon-twitter1 {
 	margin: auto;
 	width: 20px;
 	height: 20px;
@@ -490,6 +493,7 @@ img {
 	height: 20px;
 	fill: #fff;
 }
+
 /*===END CONTACTS===*/
 
 /*===========PORTFOLIO===============*/
