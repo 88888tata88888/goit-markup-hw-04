@@ -396,6 +396,7 @@ img {
 	width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
+  
 }
 .logo-color {
 	color: #2196f3;
@@ -432,15 +433,62 @@ img {
 	letter-spacing: 0.03em;
 	font-style: #ffffff;
 	padding-top: 20px;
-	display: block;
+	display: inline-block;
 }
 .contacts-info {
 	color: rgba(151, 139, 139, 0.6);
 	font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    display: block;
+    display: inline-block;
     padding-top: 10px;
+}
+.social {
+	display: flex;
+	align-items: baseline;
+}
+.text-social {
+	color: #fff;
+	font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.social-icon {
+	
+}
+.icon-li {
+	display: inline-flex;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: #fff;
+	background:rgba(255, 255, 255, 0.1);
+}
+.icon-instagram2 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+}
+.icon-twitter1 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+}
+.icon-facebook1 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+}
+.icon-linkedin1 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
 }
 /*===END CONTACTS===*/
 
