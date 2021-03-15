@@ -87,24 +87,32 @@ img {
 	font-style: normal;
 	padding-right: 50px;
 }
-.info {
+.auth-nav-link {
 	color: #757575;
+	font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
+.auth-nav-link:hover .auth-icon,
+.auth-nav-link:focus .auth-icon,
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: #2196F3;
+  fill: #2196F3;
+}
+
 .info-nav {
 	padding-right: 50px;
 }
-.info-mail {
+.auth-icon {
 	display: flex;
 	padding-right: 10px;
 	fill: #757575;
 }
-.info-mail:hover {
-	fill: #2196f3;
-}
-.info:hover,
-.info:focus {
-	color: #2196f3;
-}
+
 /*===END COMPONENTS===*/
 
 /*===HERO===*/
