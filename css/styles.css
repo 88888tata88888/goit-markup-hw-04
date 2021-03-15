@@ -72,6 +72,9 @@ img {
 .active {
 	color: #2196f3;
 }
+.header {
+	outline: 1px solid #F5F4FA;
+}
 .main-logo {
 	display: flex;
 	align-items: center;
@@ -109,7 +112,7 @@ img {
 }
 .auth-icon {
 	display: flex;
-	padding-right: 10px;
+	margin-right: 10px;
 	fill: #757575;
 }
 
