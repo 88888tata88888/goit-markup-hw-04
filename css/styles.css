@@ -182,6 +182,7 @@ img {
 	padding-left: 100px;
 	padding-right: 100px;
 	justify-content: center;
+	fill:#2196F3;
 }
 .icon-diagram1 {
 	display: flex;
