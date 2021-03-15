@@ -94,8 +94,8 @@ img {
 	padding-right: 50px;
 }
 .info-mail {
-	padding-right: 10px;
 	display: flex;
+	padding-right: 10px;
 	fill: #757575;
 }
 .info-mail:hover {
