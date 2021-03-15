@@ -296,8 +296,53 @@ img {
 	color: #757575;
 	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 16px;
 }
+.icon-masters-list {
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+.icon-masters {
+	display: inline-flex;
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+	border-radius: 50%;
+	/*background:rgba(255, 255, 255, 0.1);*/
+	text-align: center;
+}
+.instagram {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #AFB1B8;
+}
+.twitter {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #AFB1B8;
+
+}
+.facebook {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #AFB1B8;
+}
+.linkedin {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #AFB1B8;
+}
+.icon-masters:hover,
+.icon-masters:hover {
+	background: #2196F3;
+	fill: #fff;
+}
+ 
 /*===END MASTERS===*/
 
 /*===CLIENTS===*/
