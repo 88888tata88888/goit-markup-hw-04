@@ -182,7 +182,6 @@ img {
 	padding-left: 100px;
 	padding-right: 100px;
 	justify-content: center;
-	fill:#2196F3;
 }
 .icon-diagram1 {
 	display: flex;
@@ -339,11 +338,10 @@ img {
 	fill: #AFB1B8;
 }
 .icon-masters:hover,
-.icon-masters:hover {
+.icon-masters:focus {
 	background: #2196F3;
 	fill: #fff;
 }
- 
 /*===END MASTERS===*/
 
 /*===CLIENTS===*/
