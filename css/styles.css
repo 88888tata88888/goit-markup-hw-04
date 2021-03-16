@@ -320,7 +320,12 @@ img {
 .icon-masters-list {
 	text-align: center;
 	padding-bottom: 30px;
-
+	justify-content: center;
+}
+.icon-items-link:focus .instagram,  
+.icon-items-link:hover .instagram  {
+   fill: #fff;
+   background-color: #2196F3;
 }
 .icon-masters {
 	display: inline-flex;
@@ -330,6 +335,7 @@ img {
 	border-radius: 50%;
 	/*background:rgba(255, 255, 255, 0.1);*/
 	text-align: center;
+	fill: #AFB1B8;
 }
 .instagram {
 	margin: auto;
@@ -337,28 +343,10 @@ img {
 	height: 20px;
 	fill: #AFB1B8;
 }
-.twitter {
-	margin: auto;
-	width: 20px;
-	height: 20px;
-	fill: #AFB1B8;
 
-}
-.facebook {
-	margin: auto;
-	width: 20px;
-	height: 20px;
-	fill: #AFB1B8;
-}
-.linkedin {
-	margin: auto;
-	width: 20px;
-	height: 20px;
-	fill: #AFB1B8;
-}
 .icon-masters:hover,
 .icon-masters:focus {
-	background: #2196F3;
+	background-color: #2196F3;
 	fill: #fff;
 }
 /*===END MASTERS===*/
