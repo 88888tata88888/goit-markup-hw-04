@@ -324,7 +324,7 @@ img {
 }
 .icon-items-link:focus .instagram,  
 .icon-items-link:hover .instagram  {
-   fill: #fff;
+   color: #fff;
    background-color: #2196F3;
 }
 .icon-masters {
@@ -341,7 +341,6 @@ img {
 	margin: auto;
 	width: 20px;
 	height: 20px;
-
 }
 
 .icon-masters:hover,
